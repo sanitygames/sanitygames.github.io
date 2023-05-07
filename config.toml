@@ -2,6 +2,7 @@
 base_url = "https://example.com"
 
 theme = "terminimal"
+taxonomies = [ { name = "tags" } ]
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -15,4 +16,40 @@ build_search_index = false
 highlight_code = false
 
 [extra]
-# Put all your custom variables here
+
+# One of: blue, green, orange, pink, red.
+# Defaults to blue.
+accent_color = "green"
+
+# One of: blue, dark, green, orange, pink, red.
+# Enabling dark background will also modify primary font color
+# to be darker.
+# Defaults to accent color (or, if not accent color specified, to blue).
+background_color = "dark"
+
+# The logo text - defaults to "Terminimal theme"
+logo_text = "My blog"
+
+# The logo link - defaults to base_url.
+logo_home_link = "/take/me/away!"
+
+# Author name: when specified, modifies the default
+# copyright text. Apart from author, it will
+# contain current year and a link to the theme.
+author = "My Name"
+
+
+# Copyright text in HTML format. If specified,
+# entirely replaces default copyright and author.
+copyright_html = "My custom&nbsp;<b>copyright</b>"
+
+# Optional: Set how <title> elements are rendered.
+# Values:
+# - "main_only" -- only the main title (`config.title`) is rendered.
+# - "page_only" -- only the page title (if defined) is rendered,
+#                  falling back to `config.title` if not defined or empty.
+# - "combined" -- combine like so: "page_title | main_title",
+#                 or if page_title is not defined or empty, fall back to `main_title`
+#
+# Note that the main (index) page only has the main title.
+page_titles = "combined"
