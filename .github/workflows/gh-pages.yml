@@ -20,6 +20,6 @@ build:
         # Build directory
         BUILD_DIR: my_site
         # Provide personal access token
-        TOKEN: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
+        # TOKEN: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
         # Or if publishing to the same repo, use the automatic token
-        #TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        TOKEN: ${{ secrets.GITHUB_TOKEN }}
