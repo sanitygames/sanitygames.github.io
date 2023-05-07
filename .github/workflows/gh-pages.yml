@@ -14,7 +14,7 @@ build:
         uses: shalzz/zola-deploy-action@v0.16.1
         env:
         # Target repository
-        REPOSITORY: st-little/st-little.github.io
+        REPOSITORY: sanitygames/sanitygames.github.io
         # Target branch
         PAGES_BRANCH: gh-pages
         # Build directory
