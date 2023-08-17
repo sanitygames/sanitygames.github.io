@@ -2,6 +2,12 @@
 html { background: #000;
        color: #ddd;
        font-size: 1em;
+  letter-spacing: 0.1em;
+  text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+  animation-duration: 0.05s;
+  animation-name: textflicker;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 body {
@@ -13,7 +19,7 @@ body {
 
 h1 {
   font-family: Nintendoid1;
-  font-size: 3em;
+  font-size: 4em;
   text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
   animation-duration: 0.05s;
   animation-name: textflicker;
@@ -26,11 +32,6 @@ h2 {
   font-family: 'Press Start 2P', cursive;
   font-size: 1.0em;
   font-weight: 100;
-  text-shadow: 0.01rem 0 0.05rem blue, -0.01rem 0 0.05rem white;
-  animation-duration: 0.09s;
-  animation-name: textflicker2;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
   margin: 0px;
   color: #00ff8e;
 }
@@ -46,8 +47,8 @@ h4 {
 
 hr {
   color: magenta;
-  
-  box-shadow:1px 1px 10px magenta;
+  background: magenta;
+  box-shadow:1px 1px 3px magenta;
 }
 
 a {
@@ -74,13 +75,7 @@ a:hover {
 
 .contents {
   font-family: Nintendoid1;
-  text-shadow: 0.01rem 0 0.01rem #ea36af, -0.01rem 0 0.01rem #75fa69;
-  letter-spacing: 0.1em;
   text-align: left;
-  animation-duration: 3.39s;
-  animation-name: textflicker;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
   margin: 0px;
   margin-left: 30px;
 }
