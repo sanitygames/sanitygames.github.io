@@ -14,7 +14,7 @@ body {
   color: #ddd;
   font-size: 1em;
   letter-spacing: 0.2em;
-  text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+  text-shadow: 0.125rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
   font-family: Nintendoid1;
   margin-left: 30px;
   margin-right: 30px;
@@ -95,7 +95,6 @@ a:hover {
   /* font-family: 'Press Start 2P', cursive; */
   font-size: 0.8em;
   font-weight: 100;
-  text-shadow: 0.01rem 0 0.05rem #ea36af, -0.01rem 0 0.05rem #75fa69;
   margin: 0px;
   width: 60%;
 }
